@@ -1,0 +1,27 @@
+{
+  "name": "validate-objectid",
+  "version": "0.1.0",
+  "description": "Validates a MongoDB ObjectID.  Takes a string, returns a bool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashaffer/validate-objectid"
+  },
+  "keywords": [
+    "validate",
+    "objectid",
+    "mongo"
+  ],
+  "author": "ashaffer (http://github.com/ashaffer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashaffer/validate-objectid/issues"
+  },
+  "homepage": "https://github.com/ashaffer/validate-objectid",
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  }
+}
