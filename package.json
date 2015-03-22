@@ -1,6 +1,6 @@
 {
   "name": "validate-objectid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Validates a MongoDB ObjectID.  Takes a string, returns a bool.",
   "main": "index.js",
   "scripts": {
