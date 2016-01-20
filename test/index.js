@@ -3,6 +3,7 @@ var objectid = require('..');
 
 describe('validate-objectid', function() {
   it('should work', function() {
+    assert(! objectid());
     assert(! objectid('test'));
     // 24 character string
     assert(! objectid('abcdefghijklmnopqrstuvwx'));
