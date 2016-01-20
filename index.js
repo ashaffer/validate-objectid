@@ -1,7 +1,7 @@
-var re = /^[0-9a-fA-F]+$/;
+var re = /^[0-9a-fA-F]{24}$/;
 module.exports = function(str) {
-  if('string' !== typeof str && str.toString)
+  if(str && 'string' !== typeof str && str.toString)
     str = str.toString();
 
-  return str && str.length === 24 && re.test(str);
+  return str && re.test(str);
 };
